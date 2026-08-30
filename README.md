@@ -5,15 +5,15 @@ Designed a basic manipulator with 3 degrees of freedom. Based on the joystick re
 
 
 
-## 🏗️ Firmware Architecture
+## Firmware Architecture
 
 ---
 
-## 🔌 Hardware Architecture
+## Hardware Architecture
 
 ---
 
-## ⚙️ CAD/3D Printing/Mechanical Specifications 
+## CAD/3D Printing/Mechanical Specifications 
 
 ### CAD Files
 
@@ -23,7 +23,7 @@ Designed a basic manipulator with 3 degrees of freedom. Based on the joystick re
 
 ---
 
-## 🛠️ System Specifications
+## System Specifications
 
 ### Hardware
 
@@ -31,7 +31,7 @@ Designed a basic manipulator with 3 degrees of freedom. Based on the joystick re
 
 ---
 
-## 🚀 Usage & Bringup
+## Usage & Bringup
 
 ### Prerequisites
 

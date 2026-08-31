@@ -38,15 +38,15 @@ Note: Further studies were planned to determine payload capabilities, rpm, exper
 
 ### Hardware
 * Ball Bearings:
-* Arduino Uno R3
-* L298N
-* KY-023
-* Jesverty Power Supply (Model Number: ####)
+* **Board:** Arduino Uno R3
+* **Motor Drivers:** L298N
+* **Sensors:** KY-023
+* **Battery:** Jesverty Power Supply (Model Number: ####)
 Note: The power supply acted as the battery of the system.
-* Geartisan 12V DC Motor (Model: 100 rpm)
+* **Motors and Actuators:** Geartisan 12V DC Motor (Model: 100 rpm)
 ### Software & Dependencies
-* Arduino IDE (v2.3.10)
-* Ultimaker Cura Slicer (v5.8.1)
+* **Development Environment:** Arduino IDE (v2.3.10)
+* **3D Printer Slicer:** Ultimaker Cura Slicer (v5.8.1)
 ---
 
 ## Usage & Bringup
@@ -54,6 +54,11 @@ Note: The power supply acted as the battery of the system.
 ### Prerequisites
 
 ### 1. Hardware Cheklist
-* Connect the DC motors directly to the power supply and ensure they spin.
-* When 
+1. Connect the DC motors directly to the power supply and ensure they spin.
+2. When the Arduino board is connected to your computer make sure the green LED is lit up.
+3. When the power supply is connected to the two L298N drivers make sure the red LED is lit up on both drivers.
 ### 2. Execution
+1. Open your file manager in and navigate to basic-maniplator/firmware/joystick_3axis_control.ino in this repository.
+2. Open the ino file.
+3. Select the board type (Arduino Uno R3) and COM port from the top left drop-down menu.
+4. Click the Upload arrow button in the top toolbar.
